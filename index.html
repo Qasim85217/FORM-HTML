@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+</head>
+<body>
+    <body style="background-color: rgba(156, 156, 156, 0.432);"></body>
+    <a style="border: 1px solid black" href="./about.html"><b>ABOUT</b></a>
+    <br /><br />
+    <form>
+        <fieldset>
+        <legend>BIO</legend>
+    <p><label for="Name:">YourName:</label><input id="Name" required type="text"
+        name="Username" size="15" maxlength="20" minlength="2"/></p>
+    <p><label for="FatherName:">FatherName:</label><input id="FatherName" required
+         name="Username" size="15" maxlength="20" minlength="2"/> </p>
+    <p><label for="AGE:">AGE:</label><input id="AGE" required type="number" size="4" min="14" max="60" maxlength="2"  name="AGE"/></p>
+    <p><label for="DATE">Date Of Brith:</label><input required type="date" size="10" min="1/1/1970" max="12/30/2010" maxlength="10"/> </p>
+    <p><label for="no">Phone:</label><input required type="tel" maxlength="12" minlength="10" size="13"> </p>
+    <p><label for="GENDER:">GENDER:</label><input required type="radio" value="Male" checked  name="GENDER"/>MALE
+    <input required type="radio" value="FEMALE"  name="GENDER">FEMALE</p>
+    <p>Select Your Relegion.
+    <select name="Relegion">
+        <label for="Relegion"></label><option id="Relegion" value="Muslim">Muslim</option>
+        <label for="Relegion"></label><option id="Relegion" value="Non-Muslim">Non-Muslim</option>
+        </select></p>
+    </fieldset>
+    <fieldset><legend>INTREST</legend>
+        <p><strong>WHAT LANGUAGES DO YOU KNOW FROM HERE.</strong></p>
+    <p>
+    <label for="languages">HTML</label><input name="languages" id="languages" type="checkbox" value="HTML">
+    <label for="languages">C</label><input type="checkbox" name="languages" id="languages" value="HTML">
+    <label for="languages">C++</label><input type="checkbox" name="languages" id="languages" value="HTML">
+    <label for="languages">PHP</label><input type="checkbox" name="languages" id="languages" value="HTML">
+    <label for="languages">JAVA</label><input type="checkbox" name="languages" id="languages" value="HTML">
+    <label for="languages">PHYTON</label><input type="checkbox" name="languages" id="languages" value="HTML"></p><br />
+    <P><label for="textarea"><b>WHAT IS YOUR OPINON ABOUT THIS FORM.</b></label><br /><br /> <textarea id="textarea" name="textarea" maxlength="150" cols="30" rows="7"></textarea></P>
+</fieldset>
+<p><label for="image"></label><input type="file" name="image" accept=".jpg,.jpeg,.PNG"> </p>
+    <p style="text-align: center;"><label for="SUBMIT"></label><input type="image" src="11.jpg" width="100" ></p>
+</form>
+</body>
+</html>
